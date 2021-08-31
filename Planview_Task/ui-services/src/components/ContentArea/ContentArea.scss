@@ -1,0 +1,42 @@
+@import '../../assets/styles/variables';
+
+.dispaly-container {
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    border: 1px solid blue;
+    border-radius: 0.5rem;
+    padding: 1rem;
+
+
+    .display-header {
+        display: flex;
+        padding: 0 0 1rem 0;
+
+        .display-content {
+            width:45%;
+        }
+
+
+        .image-holder {
+            width : calc(100% - 90%);
+            cursor: pointer;
+
+            .rifresh-button {
+                float:right;
+                // filter: invert(88%) sepia(21%) saturate(935%) hue-rotate(123deg) brightness(85%) contrast(97%);
+            }
+        }
+
+      
+        
+    }
+
+    .alert-box {
+        border-radius: 4rem;
+    }
+
+      
+    .display-content-message {
+        padding-left:3rem;
+    }
+}

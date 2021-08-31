@@ -1,0 +1,25 @@
+@import '../../../assets/styles/variables';
+
+.display-comments {
+    margin: 1rem;
+    border: 1px solid #d4d4d4;
+    padding: 1rem;
+    border-radius: 1rem;
+
+    .display-name-time {
+        width:95%;
+    }
+
+    .image-holder {
+        width : calc(100% - 95%);
+        cursor: pointer;
+
+        .delete-button {
+            float:right;
+        }
+    }
+}
+
+#arrow {
+    color:red !important;
+}

@@ -1,0 +1,11 @@
+{
+    "development": {
+        "host": "http://127.0.0.1:5000/",
+        "FetchAllData":"fetch_data",
+        "InserComment": "insert_comment",
+        "DeleteComment": "delete_comment"
+    },
+    "production":{
+
+    }
+}

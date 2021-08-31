@@ -1,0 +1,23 @@
+@import '../../assets/styles/variables';
+
+.disply-comment-section {
+    width :calc(100% - 1rem);
+    border : 1px solid black;
+    // padding:1rem;
+    border: 1px solid #d4d4d4;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+
+    .display-header {
+        display: flex;
+        padding: 0 0 1rem 0;
+    }
+
+    .comment-header {
+        width: 100%;
+        background-color: #d4d4d4;
+        padding: 0.1rem 0.1rem 0.1rem 1rem;
+        font-weight: bold;
+        border-radius: 0.5rem 0.5rem 0 0;
+    }
+}
